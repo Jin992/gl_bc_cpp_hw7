@@ -187,7 +187,7 @@ public:
 };
 
 std::ostream& operator<<(std::ostream &os, const AbstractEmployee &e){
-	os << "ostream overload: "  << e.first_name_ << " " << e.last_name_ << " job " <<  e.job_;
+	os << "ostream overload: "  << e.first_name_ << " " << e.last_name_;
 	return os;
 }
 #endif // EMPLOYEE_H
